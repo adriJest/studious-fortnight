@@ -64,6 +64,9 @@ footer{margin-top:3rem;padding-bottom:2rem;color:var(--muted);font-size:.85rem;b
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:1rem;top:1rem;background:var(--surface);padding:.5rem;z-index:10}
 </style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -392,5 +395,6 @@ $("#exportBtn").addEventListener("click", () => {
 
 render();
 </script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>

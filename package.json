@@ -1,0 +1,19 @@
+{
+  "name": "wane-neuroscience",
+  "version": "1.0.0",
+  "description": "Ways Around Neuroscience Efficiently - Educational neuroscience resource",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static HTML - no build needed'"
+  },
+  "keywords": [
+    "neuroscience",
+    "education"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
